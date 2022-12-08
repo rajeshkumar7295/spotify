@@ -1,0 +1,17 @@
+.burger{
+    display: block;
+}
+span.songName {
+    left: 32%;
+    font-size: 16px;
+}
+span.time-play {
+    left: 71%;
+}
+img.gif-img {
+    width: 65px;
+    height: 29px;
+}
+.gif {
+    top: 44%;
+}

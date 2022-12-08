@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: Arial,  sans-serif; */
+    background-color: white!important;
+    background: url("/img/bg.webp")no-repeat center center/cover;
+
+}
+.container{
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 2%;
+}
+.logo-img {
+    height: 52px;
+}
+.heading{
+    color: white;
+    position: relative;
+    top: -6px;
+    left: 42px;
+    display: inline-block;
+}
+nav {
+    position: absolute;
+    top: 28px;
+    left: 177px;
+}
+li{
+   display: inline-block;
+}
+li a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   padding-left: 32px;
+
+} 
+.burger {
+    width: 34px;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    display: none;
+}
+.line {
+    margin: 4px 4px;
+    background-color: white;
+    padding: 2px;
+}
+.songItem {
+    height: 34px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 23px;
+    width: 21%;
+    position: relative;
+    top: 43px;
+    left: 43px;
+    margin-top: 13px;
+    padding-left: 177px;
+    padding-top: 12px;
+    font-size: 19px;
+}
+img.cover {
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    left: 34px;
+    top: 5px;
+    border-radius: 50%;
+}
+span.songName {
+    position: absolute;
+    left: 24%;
+}
+span.time-play {
+    position: absolute;
+    left: 79%;
+}
+i.far.fa-play-circle {
+    cursor: pointer;
+}
+.play-pause {
+    background-color: black;
+    height: 129px;
+    width: 100%;
+    position: relative;
+    top: 58px;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 56px;
+}
+.fa-2x {
+    font-size: 2em;
+    padding: 0 4px;
+}
+i.fa-solid.fa-2x.fa-backward-step {
+    filter: invert(1);
+    cursor: pointer;
+}
+i#playButton {
+    filter: invert(1);
+    cursor: pointer;
+}
+i.fa-solid.fa-2x.fa-forward-step {
+    filter: invert(1);
+    cursor: pointer;
+}
+.gif {
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 34%;
+    
+}
+.indicate{
+display: flex;
+justify-content: center;
+}
+#progressBar {
+    width: 70vw;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+img.gif-img {
+    width: 80px;
+    height: 36px;
+}
