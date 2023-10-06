@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    /* font-family: Arial,  sans-serif; */
+   
     background-color: white!important;
     background: url("/img/bg.webp")no-repeat center center/cover;
 
@@ -17,6 +17,7 @@ body{
     position: relative;
     top: 12px;
     left: 2%;
+    right: 5%;
 }
 .logo-img {
     height: 52px;
